@@ -13,29 +13,12 @@ body {
   margin-top: 100px;
 }
 
-div {
-  /*background-color: #dafd81;*/
+.box {
+  position: relative;
   height: 340px;
   width: 340px;
   font-size: 22px;
   text-align: center;
-}
-
-div a {
-  font-family: "Fredericka the Great", cursive;
-  text-decoration: none;
-  font-size: 40px;
-  font-weight: bold;
-  color: #008a73;
-}
-
-p {
-  line-height: 1.3em;
-  padding-top: 30px;
-}
-
-.box {
-  position: relative;
   box-shadow: 5px 5px 5px #751a2f, 6px 6px 6px #751a2f, 7px 7px 7px #751a2f;
 }
 
@@ -60,4 +43,19 @@ p {
 
 .box:hover .overlay {
   opacity: 1;
+}
+
+.text h2 {
+  font-family: "Fredericka the Great", cursive;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+  color: #008a73;
+}
+
+.text p {
+  line-height: 1.4em;
+  color: #008a73;
+  font-size: 20px;
+  padding: 10px;
 }
