@@ -5,38 +5,6 @@ body {
   margin: 0;
 }
 
-h1 {
-  font-family: "Water Brush", cursive;
-  color: #ffffff;
-  font-size: 100px;
-  text-align: center;
-  text-shadow: 2px 2px 7px #751a2f, 3px 3px 8px #751a2f, 4px 4px 9px #751a2f;
-  margin: 10px;
-}
-
-nav {
-  background-color: #ffffff;
-  text-align: center;
-}
-
-nav li {
-  display: inline-block;
-  padding: 10px 35px;
-  font-family: "Fredericka the Great", cursive;
-  font-size: 25px;
-}
-
-nav a {
-  color: #a80023;
-  text-decoration: none;
-  padding: inherit;
-}
-
-nav a:hover {
-  background-color: #a80023;
-  color: #ffffff;
-}
-
 .section1 {
   display: flex;
   justify-content: center;
@@ -51,7 +19,6 @@ div {
   width: 340px;
   font-size: 22px;
   text-align: center;
-  box-shadow: 5px 5px 5px #751a2f, 6px 6px 6px #751a2f, 7px 7px 7px #751a2f;
 }
 
 div a {
@@ -67,20 +34,9 @@ p {
   padding-top: 30px;
 }
 
-footer {
-  font-family: "Fredericka the Great", cursive;
-  font-size: 25px;
-  text-align: center;
-  color: #ffffff;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background: inherit;
-}
-
 .box {
   position: relative;
+  box-shadow: 5px 5px 5px #751a2f, 6px 6px 6px #751a2f, 7px 7px 7px #751a2f;
 }
 
 /*img {
