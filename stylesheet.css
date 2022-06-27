@@ -1,0 +1,107 @@
+body {
+  background-color: #ec0f34;
+  font-family: "Comic Neue", cursive;
+  color: #008a73;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Water Brush", cursive;
+  color: #ffffff;
+  font-size: 100px;
+  text-align: center;
+  text-shadow: 2px 2px 7px #751a2f, 3px 3px 8px #751a2f, 4px 4px 9px #751a2f;
+  margin: 10px;
+}
+
+nav {
+  background-color: #ffffff;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  padding: 10px 35px;
+  font-family: "Fredericka the Great", cursive;
+  font-size: 25px;
+}
+
+nav a {
+  color: #a80023;
+  text-decoration: none;
+  padding: inherit;
+}
+
+nav a:hover {
+  background-color: #a80023;
+  color: #ffffff;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  margin-top: 100px;
+}
+
+div {
+  /*background-color: #dafd81;*/
+  height: 340px;
+  width: 340px;
+  font-size: 22px;
+  text-align: center;
+  box-shadow: 5px 5px 5px #751a2f, 6px 6px 6px #751a2f, 7px 7px 7px #751a2f;
+}
+
+div a {
+  font-family: "Fredericka the Great", cursive;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+  color: #008a73;
+}
+
+p {
+  line-height: 1.3em;
+  padding-top: 30px;
+}
+
+footer {
+  font-family: "Fredericka the Great", cursive;
+  font-size: 25px;
+  text-align: center;
+  color: #ffffff;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: inherit;
+}
+
+.box {
+  position: relative;
+}
+
+/*img {
+  display: block;
+  width: 100%;
+  height: auto;
+}*/
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.4s ease;
+  background-color: #dafd81;
+}
+
+.box:hover .overlay {
+  opacity: 1;
+}
