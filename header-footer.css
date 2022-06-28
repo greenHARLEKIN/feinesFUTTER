@@ -30,6 +30,11 @@ nav a:hover {
   color: #ffffff;
 }
 
+/*nav a:active {
+  background-color: #b66f7d;
+  color: #610909;
+}*/
+
 footer {
   position: fixed;
   left: 0;
@@ -40,4 +45,11 @@ footer {
   font-size: 25px;
   text-align: center;
   color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+  nav a {
+    display: block;
+    text-align: center;
+  }
 }
