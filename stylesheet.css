@@ -67,3 +67,30 @@ body {
   background-color: #dafd81;
   color: #008a73;
 }
+
+/*Gestaltet nach: "Complex CSS Backgrounds with a Single Property!? #repeatinggradients" von DesignCourse (youtube)*/
+
+/*body {
+  height: 100vh;
+  background: linear-gradient(45deg, rgb(236, 15, 52), transparent),*/
+/*rgb(255, 71, 102)*/
+/*repeating-linear-gradient(
+        45deg,
+        rgba(117, 26, 47, 0.5) 0%,
+        rgba(117, 26, 47, 0.5) 5%,
+        transparent 5%,
+        transparent 10%,
+        rgba(117, 26, 47, 0.5) 10%,
+        rgba(117, 26, 47, 0.5) 11%,
+        transparent 11%,
+        transparent 13%
+      ),
+    rgb(255, 71, 102)
+      repeating-linear-gradient(
+        -45deg,
+        rgba(117, 26, 47, 0.5) 0%,
+        rgba(117, 26, 47, 0.5) 5%,
+        transparent 5%,
+        transparent 10%
+      );
+}*/
